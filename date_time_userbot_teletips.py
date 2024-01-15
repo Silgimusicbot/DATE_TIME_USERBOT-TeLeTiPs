@@ -1,9 +1,3 @@
-#Copyright ©️ 2021 TeLe TiPs. All Rights Reserved
-#You are free to use this code in any of your project, but you MUST include the following in your README.md (Copy & paste)
-# ##Credits - [DATE_TIME Telegram userbot by TeLe TiPs] (https://github.com/teletips/DATE_TIME_USERBOT-TeLeTiPs)
-
-# Changing the code is not allowed! Read GNU AFFERO GENERAL PUBLIC LICENSE: https://github.com/teletips/DATE_TIME_USERBOT-TeLeTiPs/blob/main/LICENSE
-
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from lists_teletips.quotes_teletips import *
@@ -17,12 +11,12 @@ import os
 
 Date_Time_Userbot_teletips=Client(
     name = "date_time_userbot_teletips",
-    api_id = int(os.environ["20476874"]),
-    api_hash = os.environ["0a42e3bb0f3e1a0e29fa59929aa3527b"],
-    session_string = os.environ["AgCwjQyBNk2On70kLSqxxlRF3ya8i8D_ku7u2TTiyZIB6BW1lzqyJoXYCGplYLaWaRP7ZUGeeIs-IPpsMVs4uyTyEgubFHkDznAGFDlsGnx4BeCBAGYU86LKY9-oEkypb5gzIq8kZIfQQHcuq8phrIGrXDJZvojJfEMnLvG1T59nig8w6sI6cgtJxIFgusLwP_yfDGd7aGZIUAtjdoAipfdyiX2xVWmpfy4KjOf4nkqPoBj4qWHLZqTkzd6ymhLHkImHvUM1bvJhW89w0vBIJHk5FZvVHimHWQSwzbZF0gNg--LyYaRJQKCSA8S9dRVu14IRJhlakEQvR1oeI70zrtcqAAAAAYXELKsA"]
+    export API_ID=20476874
+export API_HASH=0a42e3bb0f3e1a0e29fa59929aa3527b
+export SESSION_STRING=AgCwjQyBNk2On70kLSqxxlRF3ya8i8D_ku7u2TTiyZIB6BW1lzqyJoXYCGplYLaWaRP7ZUGeeIs-IPpsMVs4uyTyEgubFHkDznAGFDlsGnx4BeCBAGYU86LKY9-oEkypb5gzIq8kZIfQQHcuq8phrIGrXDJZvojJfEMnLvG1T59nig8w6sI6cgtJxIFgusLwP_yfDGd7aGZIUAtjdoAipfdyiX2xVWmpfy4KjOf4nkqPoBj4qWHLZqTkzd6ymhLHkImHvUM1bvJhW89w0vBIJHk5FZvVHimHWQSwzbZF0gNg--LyYaRJQKCSA8S9dRVu14IRJhlakEQvR1oeI70zrtcqAAAAAYXELKsA
 )
 
-Time_Zone = os.environ["Asia/Baku"]
+export TIME_ZONE=Asia/Baku
 
 async def main_teletips():
     try:
@@ -55,5 +49,3 @@ async def main_teletips():
 print("DATE TIME USERBOT IS ALIVE!")
 asyncio.ensure_future(main_teletips())
 Date_Time_Userbot_teletips.run()
-
-#Copyright ©️ 2021 TeLe TiPs. All Rights Reserved
