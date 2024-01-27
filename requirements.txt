@@ -1,4 +1,4 @@
 pyrogram
 tgcrypto
-Pillow>=9.0.1
+Pillow
 pytz==2021.3
